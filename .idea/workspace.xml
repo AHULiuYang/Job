@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64a097ce-0b36-4c47-bda7-52ba56d9bfd7" name="默认的" comment="默认的">
+      <change beforePath="$PROJECT_DIR$/.idea/Job.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Job.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job/middlewares/getProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Job/middlewares/getProxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job/middlewares/proxyMiddleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/Job/middlewares/proxyMiddleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job/middlewares/testProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Job/middlewares/testProxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job/pipelines/mysqlDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/Job/pipelines/mysqlDB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Job/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job/spiders/jobSpider/crawlITERjobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Job/spiders/jobSpider/crawlITERjobs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job/spiders/jobSpider/crawlOECDjobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Job/spiders/jobSpider/crawlOECDjobs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNDPjobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNDPjobs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNESCOjobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNESCOjobs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job/spiders/jobSpider/crawlWHOjobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Job/spiders/jobSpider/crawlWHOjobs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job/spiders/jobSpider/crawlWIPOjobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Job/spiders/jobSpider/crawlWIPOjobs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/语法测试.py" beforeDir="false" afterPath="$PROJECT_DIR$/语法测试.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Job$crawlUNDPjobs.coverage" NAME="crawlUNDPjobs Coverage Results" MODIFIED="1562227681696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Job/spiders/jobSpider" />
+    <SUITE FILE_PATH="coverage/Job$ESCAP.coverage" NAME="ESCAP Coverage Results" MODIFIED="1509861122692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Job$main.coverage" NAME="main Coverage Results" MODIFIED="1563601798063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Job$gfg.coverage" NAME="gfg Coverage Results" MODIFIED="1513673712547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Job$datapro.coverage" NAME="datapro Coverage Results" MODIFIED="1515635239743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataPro" />
+    <SUITE FILE_PATH="coverage/Job$.coverage" NAME="语法测试 Coverage Results" MODIFIED="1561560209568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Job$autoproxy.coverage" NAME="autoproxy Coverage Results" MODIFIED="1508411051399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Job/middlewares" />
+    <SUITE FILE_PATH="coverage/Job$1.coverage" NAME="1 Coverage Results" MODIFIED="1508416537693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Job/middlewares" />
+    <SUITE FILE_PATH="coverage/Job$gangweitongji.coverage" NAME="gangweitongji Coverage Results" MODIFIED="1515642634605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataPro" />
+    <SUITE FILE_PATH="coverage/Job$baseSpider.coverage" NAME="baseSpider Coverage Results" MODIFIED="1561472189587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Job/spiders" />
+    <SUITE FILE_PATH="coverage/Job$proxyMiddleware.coverage" NAME="proxyMiddleware Coverage Results" MODIFIED="1508423018857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Job/middlewares" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNDPjobs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PostLevel</find>
+      <find>treatment</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Job/utils/logging.ini" />
+        <option value="$PROJECT_DIR$/Job/utils/strUtil.py" />
+        <option value="$PROJECT_DIR$/Job/middlewares/autoproxy.py" />
+        <option value="$PROJECT_DIR$/Job/middlewares/getIP.py" />
+        <option value="$PROJECT_DIR$/Job/middlewares/testIP.py" />
+        <option value="$PROJECT_DIR$/Job/middlewares/1.py" />
+        <option value="$PROJECT_DIR$/Job/allitems/leaderitems.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/leaderSpider/crawlOECDleaders.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/leaderSpider/crawlWIPOleaders.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/baseSpider.py" />
+        <option value="$PROJECT_DIR$/scrapy.cfg" />
+        <option value="$PROJECT_DIR$/1.html" />
+        <option value="$PROJECT_DIR$/test/ESCAP.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/crawlMOHRSSjobs.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/meizitu.py" />
+        <option value="$PROJECT_DIR$/gfg.py" />
+        <option value="$PROJECT_DIR$/datapro.py" />
+        <option value="$PROJECT_DIR$/dataPro/datapro.py" />
+        <option value="$PROJECT_DIR$/dataPro/gangweitongji.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/crawlCERNjobs.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/crawlESCIjobs.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNIDOjobs.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNUjobs.py" />
+        <option value="$PROJECT_DIR$/Job/utils/Util.py" />
+        <option value="$PROJECT_DIR$/Job/allitems/jobitems.py" />
+        <option value="$PROJECT_DIR$/Job/middlewares/phantomjsMiddleware.py" />
+        <option value="$PROJECT_DIR$/Job/Util.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/crawlESCAPjobs.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/baseSpider.py" />
+        <option value="$PROJECT_DIR$/Job/pipelines/pipeline.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNEPjobs.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/crawlWIPOjobs.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNESCOjobs.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/crawlITERjobs.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/crawlOECDjobs.py" />
+        <option value="$PROJECT_DIR$/Job/middlewares/proxys/proxy0.json" />
+        <option value="$PROJECT_DIR$/Job/middlewares/testProxy.py" />
+        <option value="$PROJECT_DIR$/Job/middlewares/getProxy.py" />
+        <option value="$PROJECT_DIR$/Job/middlewares/proxyMiddleware.py" />
+        <option value="$PROJECT_DIR$/语法测试.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/crawlWHOjobs.py" />
+        <option value="$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNDPjobs.py" />
+        <option value="$PROJECT_DIR$/Job/pipelines/mysqlDB.py" />
+        <option value="$PROJECT_DIR$/Job/middlewares/agentMiddleware.py" />
+        <option value="$PROJECT_DIR$/Job/settings.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Job" type="462c0819:PsiDirectoryNode" />
+              <item name="Job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Job" type="462c0819:PsiDirectoryNode" />
+              <item name="Job" type="462c0819:PsiDirectoryNode" />
+              <item name="middlewares" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Job" type="462c0819:PsiDirectoryNode" />
+              <item name="Job" type="462c0819:PsiDirectoryNode" />
+              <item name="pipelines" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Job" type="462c0819:PsiDirectoryNode" />
+              <item name="Job" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Job" type="462c0819:PsiDirectoryNode" />
+              <item name="Job" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="jobSpider" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TCYB" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python_workspace\spider\Job\Job" />
+      <recent name="E:\workspace_python\spider\scrapy_spider\Job\Job" />
+      <recent name="E:\workspace_python\spider\scrapy_spider\Job" />
+      <recent name="E:\workspace_python\spider\scrapy_spider\Job\Job\spiders" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="语法测试" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Job" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/语法测试.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="baseSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Job" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Job/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Job/spiders/baseSpider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="crawlUNDPjobs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Job" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Job/spiders/jobSpider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNDPjobs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gangweitongji" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Job" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataPro" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataPro/gangweitongji.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Job" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="Job" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="Job" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.gangweitongji" />
+      <item itemvalue="Python.crawlUNDPjobs" />
+      <item itemvalue="Python.语法测试" />
+      <item itemvalue="Python.baseSpider" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.crawlUNDPjobs" />
+        <item itemvalue="Python.语法测试" />
+        <item itemvalue="Python.baseSpider" />
+        <item itemvalue="Python.gangweitongji" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64a097ce-0b36-4c47-bda7-52ba56d9bfd7" name="默认的" comment="" />
+      <created>1502857201726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1502857201726</updated>
+      <workItem from="1559631877577" duration="95000" />
+      <workItem from="1559746215931" duration="40000" />
+      <workItem from="1559996000788" duration="2824000" />
+      <workItem from="1560089306081" duration="15000" />
+      <workItem from="1561459726790" duration="14679000" />
+      <workItem from="1561532609664" duration="2439000" />
+      <workItem from="1561535910784" duration="8460000" />
+      <workItem from="1561556385421" duration="4512000" />
+      <workItem from="1561726121436" duration="628000" />
+      <workItem from="1562227303175" duration="264000" />
+      <workItem from="1562227926241" duration="1190000" />
+      <workItem from="1562231630740" duration="599000" />
+      <workItem from="1562317083851" duration="28000" />
+      <workItem from="1563599252367" duration="1429000" />
+      <workItem from="1563600699859" duration="1711000" />
+      <workItem from="1563609947061" duration="16000" />
+    </task>
+    <task id="LOCAL-00001" summary="默认的">
+      <created>1561536423596</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561536423596</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="38929000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.269437" />
+      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.30093834" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35835695" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295583" />
+      <window_info anchor="bottom" id="运行" order="7" weight="0.3584019" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3295583" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="调试" order="12" />
+      <window_info anchor="bottom" id="找到" order="13" weight="0.32902467" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="默认的" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认的" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ghostdriver.log" />
+    <entry file="file://$PROJECT_DIR$/Job/allitems/leaderitems.py" />
+    <entry file="file://$PROJECT_DIR$/Job/logging.ini" />
+    <entry file="file://$PROJECT_DIR$/Job/spiders/jobSpider/crawlESCIjobs.py" />
+    <entry file="file://$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNIDOjobs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-562">
+          <caret line="97" column="25" lean-forward="true" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNUjobs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/script.py" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt" />
+    <entry file="file://D:/IDE/anaconda3.5/pkgs/urllib3-1.23-py35_0/Lib/site-packages/urllib3/connectionpool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2116">
+          <caret line="445" column="8" selection-start-line="445" selection-start-column="8" selection-end-line="445" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/middlewares/phantomjsMiddleware.py" />
+    <entry file="file://D:/IDE/anaconda3.5/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/anaconda3.5/Lib/site-packages/conda/_vendor/toolz/functoolz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="198" column="31" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/functools.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="60" column="50" lean-forward="true" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/181997886/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="149" column="13" selection-start-line="149" selection-start-column="13" selection-end-line="149" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/anaconda3.5/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="76" column="38" lean-forward="true" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/anaconda3.5/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="603" column="29" selection-start-line="603" selection-start-column="29" selection-end-line="603" selection-end-column="29" />
+          <folding>
+            <element signature="e#1088#1098#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/pipelines/pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/anaconda3.5/Lib/site-packages/fake_useragent/fake.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#24#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/anaconda3.5/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="896" column="8" selection-start-line="896" selection-start-column="8" selection-end-line="896" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/anaconda3.5/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="634" column="8" selection-start-line="634" selection-start-column="8" selection-end-line="634" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/anaconda3.5/Lib/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/middlewares/proxys/proxy0.json" />
+    <entry file="file://D:/IDE/anaconda3.5/pkgs/terminado-0.8.1-py27_1/Lib/site-packages/terminado/tests/basic_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="149" column="4" selection-start-line="149" selection-start-column="4" selection-end-line="149" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/spiders/jobSpider/crawlITERjobs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/spiders/jobSpider/crawlWIPOjobs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNESCOjobs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/spiders/jobSpider/crawlOECDjobs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/anaconda3.5/pkgs/pandas-0.23.4-py27h39f3610_0/Lib/site-packages/pandas/tests/io/parser/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="653" column="8" selection-start-line="653" selection-start-column="8" selection-end-line="653" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/middlewares/getProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/middlewares/proxyMiddleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/middlewares/testProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNEPjobs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../wanfangPaperSpidersx1.3.2015.py" />
+    <entry file="file://$PROJECT_DIR$/语法测试.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/allitems/jobitems.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/spiders/jobSpider/crawlCERNjobs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="73" column="27" lean-forward="true" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+          <folding>
+            <element signature="e#2#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/spiders/jobSpider/crawlESCAPjobs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1277">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/spiders/jobSpider/crawlWHOjobs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/anaconda3.5/Lib/site-packages/fake_useragent/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/anaconda3.5/Lib/site-packages/scrapydo/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="283" selection-start-line="283" selection-end-line="283" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/middlewares/agentMiddleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/spiders/baseSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/anaconda3.5/Lib/site-packages/twisted/internet/reactor.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/Util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/pipelines/mysqlDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/anaconda3.5/Lib/site-packages/scrapy/xlib/pydispatch/dispatcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="398" selection-start-line="398" selection-end-line="398" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Job/spiders/jobSpider/crawlUNDPjobs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
